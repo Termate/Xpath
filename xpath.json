@@ -9,7 +9,7 @@
   },
 "authors": {
 "function": "process_array_item",
-"xpath": [÷
+"xpath": [
 "//div[@class=\"author\"]/a/text()"
     ]
   },
@@ -1002,9 +1002,6 @@
 
 =============================================================================================
 
-
-
-
 {
 "article_body": {
 "function": "process_article_text",
@@ -1067,8 +1064,6 @@
 }
 
 =============================================================================================
-
-
 
 
 {
@@ -1136,8 +1131,6 @@
 =============================================================================================
 
 
-
-
 {
 "article_body": {
 "function": "process_article_text",
@@ -1197,8 +1190,6 @@
 }
 
 =============================================================================================
-
-
 
 
 {
@@ -1267,8 +1258,6 @@
 =============================================================================================
 
 
-
-
 {
 "article_body": {
 "function": "process_article_text",
@@ -1330,8 +1319,6 @@
 =============================================================================================
 
 
-
-
 {
 "article_body": {
 "function": "process_article_text",
@@ -1390,7 +1377,6 @@
 }
 
 =============================================================================================
-121212121212121212121212121212121212121212121212
 
 
 {
@@ -1457,8 +1443,6 @@
 =============================================================================================
 
 
-
-
 {
 "article_body": {
 "function": "process_article_text",
@@ -1521,8 +1505,6 @@
 }
 
 =============================================================================================
-
-
 
 
 {
@@ -1668,7 +1650,6 @@
 "//article[@class=\"asset asset-img-res\"]//h3/text()",
 "//article[@class=\"asset asset-img-res\"]//p/a/i/text()",
 "//div[@class=\"col-sm-8 col-xs-12\"]/div/a/text()"
-//div[@class="article--body"]//p/text() | //div[@class="article-content"]//div/text() | //div[@class="article-content"]//p/text() | //div[@class="article-content"]/div[2]/text() | //div[@class="article-description col-md-12 col-sm-12 col-xs-12 no-padding"]/p/text() | //div[@class="article-description col-md-12 col-sm-12 col-xs-12 no-padding"]/p/i/text()
     ]
   },
 "authors": {
@@ -1723,8 +1704,6 @@
 }
 
 =============================================================================================
-
-
 
 
 {
@@ -1853,8 +1832,6 @@
 }
 
 =============================================================================================
-
-
 
 
 {
@@ -2108,305 +2085,3 @@
 "topic_en": "Manufacturing",
 "org_type": "media"
 }
-
-=============================================================================================
-343434343434343434343434343434343434343434343434343434343434343434343434343434343434343434
-
-
-{
-"article_body": {
-"function": "process_article_text",
-"lang": "en",
-"xpath": [
-""
-    ]
-  },
-"authors": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"categories": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"datestring": "%B %d, %Y",
-"external_links": {
-"function": "process_external_links",
-"xpath": [
-""
-    ]
-  },
-"index": "sti_md_trade_journal",
-"link": "http://",
-"pubdate": {
-"function": "process_date_item",
-"xpath": [
-""
-    ]
-  },
-"tags": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"title": {
-"function": "process_singular_item",
-"lang": "en",
-"xpath": [
-""
-    ]
-  },
-"parser_author": "fedorovnu0406@gmail.com",
-"parser_name": "sdelanounas",
-"site_publisher": "",
-"source": "",
-"topic_en": "",
-"org_type": "media"
-}
-
-=============================================================================================
-
-
-
-{
-"article_body": {
-"function": "process_article_text",
-"lang": "ru",
-"xpath": [
-""
-    ]
-  },
-"authors": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"categories": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"datestring": "%B %d, %Y",
-"external_links": {
-"function": "process_external_links",
-"xpath": [
-""
-    ]
-  },
-"index": "sti_md_trade_journal",
-"link": "http://",
-"pubdate": {
-"function": "process_date_item",
-"xpath": [
-""
-    ]
-  },
-"tags": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"title": {
-"function": "process_singular_item",
-"lang": "ru",
-"xpath": [
-""
-    ]
-  },
-"parser_author": "fedorovnu0406@gmail.com",
-"parser_name": "sdelanounas",
-"site_publisher": "",
-"source": "",
-"topic_en": "",
-"org_type": "media"
-}
-
-=============================================================================================
-
-
-
-{
-"article_body": {
-"function": "process_article_text",
-"lang": "ru",
-"xpath": [
-""
-    ]
-  },
-"authors": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"categories": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"datestring": "%B %d, %Y",
-"external_links": {
-"function": "process_external_links",
-"xpath": [
-""
-    ]
-  },
-"index": "sti_md_trade_journal",
-"link": "http://",
-"pubdate": {
-"function": "process_date_item",
-"xpath": [
-""
-    ]
-  },
-"tags": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"title": {
-"function": "process_singular_item",
-"lang": "ru",
-"xpath": [
-""
-    ]
-  },
-"parser_author": "fedorovnu0406@gmail.com",
-"parser_name": "sdelanounas",
-"site_publisher": "",
-"source": "",
-"topic_en": "",
-"org_type": "media"
-}
-
-=============================================================================================
-
-
-
-{
-"article_body": {
-"function": "process_article_text",
-"lang": "ru",
-"xpath": [
-""
-    ]
-  },
-"authors": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"categories": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"datestring": "%B %d, %Y",
-"external_links": {
-"function": "process_external_links",
-"xpath": [
-""
-    ]
-  },
-"index": "sti_md_trade_journal",
-"link": "http://",
-"pubdate": {
-"function": "process_date_item",
-"xpath": [
-""
-    ]
-  },
-"tags": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"title": {
-"function": "process_singular_item",
-"lang": "ru",
-"xpath": [
-""
-    ]
-  },
-"parser_author": "fedorovnu0406@gmail.com",
-"parser_name": "sdelanounas",
-"site_publisher": "",
-"source": "",
-"topic_en": "",
-"org_type": "media"
-}
-
-=============================================================================================
-
-
-
-{
-"article_body": {
-"function": "process_article_text",
-"lang": "ru",
-"xpath": [
-""
-    ]
-  },
-"authors": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"categories": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"datestring": "%B %d, %Y",
-"external_links": {
-"function": "process_external_links",
-"xpath": [
-""
-    ]
-  },
-"index": "sti_md_trade_journal",
-"link": "http://",
-"pubdate": {
-"function": "process_date_item",
-"xpath": [
-""
-    ]
-  },
-"tags": {
-"function": "process_array_item",
-"xpath": [
-""
-    ]
-  },
-"title": {
-"function": "process_singular_item",
-"lang": "ru",
-"xpath": [
-""
-    ]
-  },
-"parser_author": "fedorovnu0406@gmail.com",
-"parser_name": "sdelanounas",
-"site_publisher": "",
-"source": "",
-"topic_en": "",
-"org_type": "media"
-}
-
-=============================================================================================
