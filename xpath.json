@@ -1,0 +1,2412 @@
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"body\"]//p/text()",
+"//div[@class=\"content\"]//div/p/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [÷
+"//div[@class=\"author\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"topics\"]//a/text()"
+    ]
+  },
+"datestring": "%B %d,%Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"body\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.petfoodindustry.com/articles/5411-things-you-need-to-know-about-fsma-pet-food-safety-rule?v=preview",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"date\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"headline\"]/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_petfoodindustry",
+"site_publisher": "",
+"source": "",
+"topic_en": "Food_industry",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"columns small-12 single-post-content_text-container\"]//p/text()",
+"//div[@class=\"columns small-12 single-post-content_text-container\"]//p//span/text()",
+"//div[@class=\"columns small-12 single-post-content_text-container\"]//p/strong/text()",
+"//div[@class=\"columns small-12 single-post-content_text-container\"]//p/a/text()",
+"//div[@class=\"columns small-12 single-post-content_text-container\"]//p//span/a/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//li[@class=\"profile\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"single-title\"]/a/h2/text()"
+    ]
+  },
+"datestring": "%d %B %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"columns small-12 single-post-content_text-container\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.iotworldtoday.com/2019/08/27/vmware-reveals-update-to-iot-device-management-software/",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//li[@class=\"byline\"]/text()",
+"//div[@class=\"columns medium-6 small-12\"]/ul/li[2]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"columns small-12 tag\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"single-post-content_title\"]/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_ioti",
+"site_publisher": "https://tech.informa.com/",
+"source": "",
+"topic_en": "internet_of_things",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-content\"]//p/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//ul[@class=\" list-inline no-margin\"]/li//a/text()"
+    ]
+  },
+"datestring": "%d %B %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.mining-journal.com/mining-journal-world-risk-report-2017/special-report/1349909/general-risk-perception-operating-risk-analysis",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"publish-date\"]/ul/li[1]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-title col-xs-12 no-padding\"]/h1/text()",
+"//div[@class=\"article-title col-xs-12 no-padding\"]/h2/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_mining_journal",
+"site_publisher": "",
+"source": "anton",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"body gsd-paywall\"]//p/text()",
+"//div[@class=\"body gsd-paywall\"]//div/text()",
+"//div[@class=\"body gsd-paywall\"]//p/em/text()"
+
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.wconline.com/articles/90128-aecom-capital-hires-bill-smith-to-oversee-national-design-and-construction-development",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"date\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"topics\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"headline\"]/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_wconline",
+"site_publisher": "",
+"source": "",
+"topic_en": "Building_material",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"entry-content\"]//p/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"author-names\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%b %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"entry-content\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.coindesk.com/mint-coinbase-add-bitcoin-support",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"timestamp\"]/div/span/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"coindesk-tagbar\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"meta\"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_coindesk",
+"site_publisher": "",
+"source": "",
+"topic_en": "blockchain",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"col-sm-8 col-xs-12\"]//p/text()"
+"//div[@class=\"col-sm-8 col-xs-12\"]//ul/li/text()",
+"//span[@class=\"article-sub-title\"]/text()",
+"//article[@class=\"asset asset-img-res\"]//p/text()",
+"//article[@class=\"asset asset-img-res\"]//h3/text()",
+"//article[@class=\"asset asset-img-res\"]//p/a/i/text()",
+"//div[@class=\"col-sm-8 col-xs-12\"]/div/a/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "http://www.inforisktoday.com/whitepapers/transforming-security-operations-w-4364",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//span[@class=\"article-byline\"]/span/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"article-title\"]/a/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_inforisktoday",
+"site_publisher": "",
+"source": "",
+"topic_en": "Information_security",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"td-post-content tagdiv-type\"]//p/text()",
+"//div[@class=\"td-post-content tagdiv-type\"]//p/a/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"td-post-author-name\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"entry-crumbs\"]/span/a/text()"
+    ]
+  },
+"datestring": "%b %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"td-post-content tagdiv-type\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://defense-update.com/20050508_ram-2000.html",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//header[@class=\"td-post-title\"]/div/span/time/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//li[@class=\"entry-category\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"entry-title\"]/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_defense-update",
+"site_publisher": "",
+"source": "",
+"topic_en": "Arms_industry",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"body\"]//p/text()",
+"//div[@class=\"body gsd-paywall\"]//p/text()"
+"//div[@class=\"body gsd-paywall\"]//p/a/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"body\"]//p//a/@href",
+"//div[@class=\"body gsd-paywall\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.buildingenclosureonline.com/articles/86785-innovative-stone-product-line?v=preview",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"date\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"topics\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"headline\"]/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_buildingenclosureonline",
+"site_publisher": "",
+"source": "",
+"topic_en": "Building_material",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"td-post-content\"]//p/text()",
+"//div[@class=\"td-post-content\"]//h5/strong/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"td-post-author-name\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"entry-crumbs\"]/span/a/text()"
+    ]
+  },
+"datestring": "%b %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"td-post-content\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://constructionreviewonline.com/2018/08/rukwa-coal-plant-project-in-tanzania-to-be-complete-by-september/",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//span[@class=\"td-post-date td-post-date-no-dot\"]/time/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//li[@class=\"entry-category\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"entry-title\"]/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_constructionreviewonline",
+"site_publisher": "",
+"source": "",
+"topic_en": "construction",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article--body\"]//p/text()",
+" //div[@class=\"article--body\"]//div/text()",
+"//div[@class=\"article-content\"]//p/text()",
+"//div[@class=\"article-content\"]/div[2]/text()"
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/text()",
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/i/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%d %B %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.finextra.com/featurearticle/1178/the-future-of-dark-pools",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"module--share\"]/span/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article--title\"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_finextra",
+"site_publisher": "",
+"source": "",
+"topic_en": "Blockchain",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article--body\"]//p/text()",
+"//div[@class=\"article-content\"]//p/text()",
+"//div[@class=\"article-content\"]/div[2]/text()"
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/text()",
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/i/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%d %B %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.miningnews.net/discovery/news/1356333/petratherm-defines-potential-victorian-bonanza%C2%A0",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//li[@class=\"hidden-xs\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-title col-xs-12 no-padding\"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_miningnews",
+"site_publisher": "",
+"source": "anton",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-body article-content\"]//p/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"info row\"]/div/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"current-nav col-xs-12 hidden-xs\"]/div//a/text()"
+    ]
+  },
+"datestring": "%d.%m.%Y %H:%M",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"article-body article-content\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.mnn.com/lifestyle/natural-beauty-fashion/blogs/avon-estee-lauder-and-mary-kay-are-again-testing-makeup-on-an",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"publish-info\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"content-tags\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-header row\"]/div/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_mnn",
+"site_publisher": "",
+"source": "ju.isaeva",
+"topic_en": "Natural_environment;Ecology",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"entry-content\"]/text()",
+"//div[@class=\"entry-content\"]/p/em/text()",
+"//div[@class=\"page-content\"]//p/text()",
+"//div[@class=\"page-content\"]//h3/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"entry-meta\"][2]//a/text()"
+    ]
+  },
+"datestring": "%m/%d/%y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.roboticstomorrow.com/news/2016/12/12/japan-smart-factory-expo-invites-global-advanced-automation-companies/9249/",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"entry-meta\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"entry-meta\"][2]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h3[@class=\"entry-title aligncenter\"]/a/strong/text()",
+"//h3[@class=\"entry-title aligncenter\"]/strong/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_roboticstomorrow",
+"site_publisher": "",
+"source": "",
+"topic_en": "robotics",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"body gsd-paywall\"]//p/text()"
+"//div[@class=\"body gsd-paywall\"]//p/strong/text()",
+"//div[@class=\"body gsd-paywall\"]//p/strong/a/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"entry-meta\"][2]//a/text()"
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"body gsd-paywall\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.qualitymag.com/articles/91537-strobe-a-new-era-for-leds-and-machine-vision-lighting",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"date\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"topics\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"container \"]/article/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_qualitymag",
+"site_publisher": "",
+"source": "",
+"topic_en": "Manufacturing",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"field-name-body\"]//p/text()",
+"//div[@class=\"field-name-body\"]/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"byline\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"subject-area\"]//a/text()"
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.ainonline.com/solutions-in-business-aviation/aeg-fuels-many-valuable-services-one-proven-provider",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"pubdate\"]/span[2]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//li[@class=\"taxonomy-term-reference-0\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"small-12 medium-7 large-8 columns main-content first\"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_ainonline",
+"site_publisher": "",
+"source": "",
+"topic_en": "Aviation",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article--body\"]//p/text()",
+"//div[@class=\"article-content\"]//p/text()",
+"//div[@class=\"article-content\"]/div[2]/text()"
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/text()",
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/i/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"author-content\"]/h4/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//ul[@class=\" list-inline no-margin\"]/li//a/text()"
+    ]
+  },
+"datestring": "%d %B %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.mining-journal.com/capital-markets/news/1349437/china’s-plans-boost-commodities",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//li[@class=\"hidden-xs\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-title col-xs-12 no-padding\"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_mining_journal",
+"site_publisher": "",
+"source": "anton",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"body\"]//p/text()",
+"//div[@class=\"body gsd-paywall\"]//p/text()",
+"//div[@class=\"body gsd-paywall\"]//p/span/text()",
+"//div[@class=\"body gsd-paywall\"]/ul//li/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"author\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.randrmagonline.com/articles/85918-why-every-restoration-firm-needs-professional-liability-insurance",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"date\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"topics\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-preview\"]/h1/text()",
+"//span[@class=\"topics\"]/h1/text()",
+"//article[@class=\"main-body page-article-show \"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_randrmagonline",
+"site_publisher": "",
+"source": "",
+"topic_en": "construction",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"body gsd-paywall\"]/text()",
+"//div[@class=\"body gsd-paywall\"]//strong/text()",
+"//div[@class=\"body gsd-paywall\"]//strong/text()",
+"//div[@class=\"body gsd-paywall\"]//p/text()",
+"//div[@class=\"body\"]//p/text()",
+"//div[@class=\"body\"]//p/font/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"author\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//ul[@class=\" list-inline no-margin\"]/li//a/text()"
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.pobonline.com/articles/90219-traversing-the-law?v=preview",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"date\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"topics\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-preview\"]/h1/text()",
+"//article[@class=\"main-body page-article-show \"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_pobonline",
+"site_publisher": "",
+"source": "",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"layout-responsive-region layout-responsive-region-body rld-col rld-span-smartphone_first rld-span-smartphone_3 rld-span-tablet_first rld-span-tablet_6 rld-span-standard_5\"]/div/div/div/div/div//p/text()",
+"//div[@class=\"field-item even\"]//p/strong/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"field-item even\"]/span/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"breadcrumb\"]/text()"
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"field-item even\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.`aluminum.org/news/aluminum-association-final-fuel-economy-rules-should-reflect-accurate-data-lightweighting",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"field-item even\"]//span[1]/text()"
+"//div[@class=\"field-item even\"]//span/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//ul[@class=\"links\"]//li/a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"pane-content\"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_aluminum",
+"site_publisher": "",
+"source": "",
+"topic_en": "metallurgy",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"col-sm-8 col-xs-12\"]//p/text()",
+"//div[@class=\"col-sm-8 col-xs-12\"]//ul/li/text()",
+"//span[@class=\"article-sub-title\"]/text()",
+"//article[@class=\"asset asset-img-res\"]//p/text()",
+"//article[@class=\"asset asset-img-res\"]//h3/text()",
+"//article[@class=\"asset asset-img-res\"]//p/a/i/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"article-byline\"]/a/text()",
+"//span[@class=\"article-byline\"]/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//article[@class=\"asset asset-img-res\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "http://www.bankinfosecurity.com/mobility-top-threats-a-5581",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//span[@class=\"article-byline\"]/span/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//p[@class=\"text-muted\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"article-title\"]/text()",
+"//h1[@class=\"article-title\"]/a/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "",
+"site_publisher": "",
+"source": "",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@id=\"platform-access\"]//p/text()",
+"//div[@class=\"body\"]/p[@class=\"teaser\"]/text()",
+"//div[@class=\"body\"]/div//p/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"contact\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%b %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.ien.com/safety/news/21093153/messages-from-exboeing-test-pilot-reveal-max-concerns",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//span[@class=\"date uppercase\"]/date/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//aside[@class=\"content\"]/div/span/a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"body\"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_ien",
+"site_publisher": "",
+"source": "",
+"topic_en": "construction",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"content\"]//p/text()",
+"//div[@class=\"content\"]//p/a/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"byline\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"content\"]/p//a/text()"
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"content\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.biometricupdate.com/201310/new-smartphone-launches-in-asia-with-precise-biometrics-fingerprint-algorithm",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"byline\"]/time/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"categories\"]/a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"inner\"]/article/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_biometricupdate",
+"site_publisher": "",
+"source": "",
+"topic_en": "biometrics",
+"org_type": "media"
+}
+
+=============================================================================================
+121212121212121212121212121212121212121212121212
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"body\"]//p/text()",
+"//div[@class=\"body\"]//p/a/text()",
+"//div[@class=\"container \"]/div/div/p/text()",
+"//div[@class=\"container \"]/article/div/div/p/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@id=\"breadcrumbs\"]/a/text()"
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"container \"]/div/div/p//a/@href",
+"//div[@class=\"container \"]/article/div/div/p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.process-heating.com/articles/89691-equipment-overview-industrial-heat-exchangers-2019-edition",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"date\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"topics\"]/a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"headline\"]/text()",
+"//h1[@class=\"page-title\"]/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_processheating",
+"site_publisher": "",
+"source": "",
+"topic_en": "Manufacturing",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article--body\"]//p/text()",
+"//div[@class=\"article-content\"]//p/text()",
+"//div[@class=\"article-content\"]/div[2]/text()"
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/text()",
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/i/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//ul[@class=\" list-inline no-margin\"]/li//a/text()"
+    ]
+  },
+"datestring": "%d %B %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.farmingahead.com.au/archive/news/1326352/taking-big-stake-in-animal-industry-–-livestock-award-finalists-are-named",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"publish-date\"]/ul/li[1]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-title col-xs-12 no-padding\"]/h1/text()",
+"//div[@class=\"article-title col-xs-12 no-padding\"]/h2/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_farmingahead",
+"site_publisher": "",
+"source": "",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"body\"]//p/text()",
+"//div[@class=\"body gsd-paywall\"]//p/text()",
+"//div[@class=\"body gsd-paywall\"]//p/a/text()",
+"//div[@class=\"body gsd-paywall\"]/ul//li/text()",
+"//div[@class=\"body gsd-paywall\"]/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"author\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"body gsd-paywall\"]//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.roofingcontractor.com/articles/93996-tool-belts-and-harnesses-over-under-or-integral",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"date\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"topics\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-preview\"]/h1/text()",
+"//article[@class=\"main-body page-article-show \"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_roofingcontractor",
+"site_publisher": "",
+"source": "",
+"topic_en": "construction",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-content\"]//p/text()",
+"//div[@class=\"article-content\"]//div/text()"
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]//p/text()"
+"//div[@class=\"article-content\"]//p/text()",
+"//div[@class=\"article-content\"]/div[2]/text()",
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/i/text()
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"author-content\"]/p/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//ul[@class=\" list-inline no-margin\"]/li//a/text()"
+    ]
+  },
+"datestring": "%d %B %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.energynewsbulletin.net/policy/news/1356467/morrison-puts-‘big-stick’-down-after-medivac-defeat",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"publish-date\"]/ul/li[1]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"article-topics common-margin col-xs-12 no-padding test\"]//ul/li/a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-title col-xs-12 no-padding\"]/h1/text()",
+"//div[@class=\"article-title col-xs-12 no-padding\"]/h2/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_energynewsbulletin",
+"site_publisher": "",
+"source": "anton",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"col-sm-8 col-xs-12\"]//p/text()",
+"//div[@class=\"col-sm-8 col-xs-12\"]//ul/li/text()",
+"//span[@class=\"article-sub-title\"]/text()",
+"//article[@class=\"asset asset-img-res\"]//p/text()",
+"//article[@class=\"asset asset-img-res\"]//h3/text()",
+"//article[@class=\"asset asset-img-res\"]//p/a/i/text()",
+"//div[@class=\"col-sm-8 col-xs-12\"]/div/a/text()"
+//div[@class="article--body"]//p/text() | //div[@class="article-content"]//div/text() | //div[@class="article-content"]//p/text() | //div[@class="article-content"]/div[2]/text() | //div[@class="article-description col-md-12 col-sm-12 col-xs-12 no-padding"]/p/text() | //div[@class="article-description col-md-12 col-sm-12 col-xs-12 no-padding"]/p/i/text()
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"article-byline\"]/a/text()",
+"//span[@class=\"article-byline\"]/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//article[@class=\"asset asset-img-res\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "http://www.databreachtoday.com/apple-samsung-devices-bug-warnings-a-8323",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//span[@class=\"article-byline\"]/span/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//p[@class=\"text-muted\"]//a/text()",
+"//ul[@class=\"topics pull-left\"]//li/a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"article-title\"]/text()",
+"//h1[@class=\"article-title\"]/a/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_databreachtoday",
+"site_publisher": "",
+"source": "",
+"topic_en": "Information_security",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@id=\"ec-postContent\"]//p/text()",
+"//div[@id=\"ec-postContent\"]//p/span/text()",
+"//div[@id=\"ec-postContent\"]//p/span/a/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@id=\"ec-sidebarAuthor\"]/h4/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@id=\"ec-postContent\"]/h3/text()"
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@id=\"ec-postContent\"]//h2//a/@href",
+"//div[@id=\"ec-postContent\"]//p//a/@href",
+"//div[@id=\"ec-postContent\"]//h3[2]//a/@href",
+"//div[@id=\"ec-postContent\"]//ul/li/strong//a/@href",
+"//div[@id=\"ec-postContent\"]//ul/li//a/@href",
+"//div[@id=\"ec-postContent\"]//h6//a/@href",
+"//div[@id=\"ec-postContent\"]//p/span//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.shponline.co.uk/safety-training-and-development/rrc-announced-as-nebosh-gold-learning-partner/",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@id=\"ec-sidebarAuthor\"]/span/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//div[@id=\"ec-articleTags\"]/span/a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@id=\"ec-postContent\"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_ubm",
+"site_publisher": "https://www.ubm.com",
+"source": "",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"td-post-content\"]//p/text()",
+"//div[@class=\"td-post-content\"]//h5/strong/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"td-post-author-name\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"entry-crumbs\"]/span/a/text()"
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"td-post-content\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.steel-360.com/stories/steel/essar-steel-eyes-hike-in-value-added-steel-share-to-60",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//span[@class=\"td-post-date td-post-date-no-dot\"]/time/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//li[@class=\"entry-category\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//h1[@class=\"entry-title\"]/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_news_steel_360",
+"site_publisher": "",
+"source": "",
+"topic_en": "Steel;Metallurgy",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article--body\"]//p/text()",
+"//div[@class=\"article-content\"]//p/text()",
+"//div[@class=\"article-content\"]/div[2]/text()"
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/text()",
+"//div[@class=\"article-description col-md-12 col-sm-12 col-xs-12 no-padding\"]/p/i/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"col-lg-8 order-0\"]/p/em/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"post-meta mb-4\"]/a/text()"
+    ]
+  },
+"datestring": "%B %d %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"td-post-content\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "http://www.mining.com/a-rare-rare-earths-discovery/",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//article[@class=\"single\"]/div/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"tags\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"site-content single\"]/article/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_mining",
+"site_publisher": "",
+"source": "",
+"topic_en": "metallurgy",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//article[@class=\"single\"]/div/p/text()",
+"//article[@class=\"single\"]//p/span/text()",
+"//article[@class=\"single\"]//p/text()",
+"//article[@class=\"single\"]//ul/li/span/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"author\"]/p/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"post-meta mb-4\"]/a/text()"
+    ]
+  },
+"datestring": "%B %d %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//article[@class=\"single\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.newfoodmagazine.com/article/13206/the-relevance-of-reducing-sugar-and-sweetness-in-products-intended-for-infants-and-young-children/",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"date\"]/p/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//article[@class=\"single\"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_newfoodmagazine",
+"site_publisher": "https://www.russellpublishing.com/",
+"source": "",
+"topic_en": "Food_industry",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"key-takeaways\"]//ul/li/text()",
+"//div[@class=\"entry-content-inner ism-transition ism-public-content\"]//p/text()"
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"entry-author-name\"]/a/span/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"entry-content-inner ism-transition ism-public-content\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.inman.com/2016/10/17/inclusion-a-core-value-for-better-homes-gardens-real-estate/",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"entry-author-section-wrap clearing\"]/div[3]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"title-wrap\"]/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_inmannews",
+"site_publisher": "",
+"source": "",
+"topic_en": "Real_estate",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+"//div[@class=\"body\"]//p/text()",
+"//div[@class=\"body gsd-paywall\"]//p/text()",
+"//div[@class=\"body gsd-paywall\"]/ul//li/text()",
+"//div[@class=\"body gsd-paywall\"]/text()",
+"//div[@class=\"body\"]//p/a/text()"
+
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"author\"]/a/text()"
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+"//div[@class=\"breadcrumbs\"]/text()"
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+"//div[@class=\"body gsd-paywall\"]//a/@href",
+"//div[@class=\"content\"]//p//a/@href"
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "https://www.forgemag.com/articles/83802-induction-heating-process-simulation-for-forging?v=preview",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+"//div[@class=\"date\"]/text()"
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+"//span[@class=\"topics\"]//a/text()"
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+"//div[@class=\"article-preview\"]/h1/text()",
+"//article[@class=\"main-body page-article-show \"]/h1/text()",
+"//div[@class=\"container \"]/article/h1/text()"
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sm_forgemag",
+"site_publisher": "",
+"source": "",
+"topic_en": "Manufacturing",
+"org_type": "media"
+}
+
+=============================================================================================
+343434343434343434343434343434343434343434343434343434343434343434343434343434343434343434
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "en",
+"xpath": [
+""
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "http://",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+""
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "en",
+"xpath": [
+""
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sdelanounas",
+"site_publisher": "",
+"source": "",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "ru",
+"xpath": [
+""
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "http://",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+""
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "ru",
+"xpath": [
+""
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sdelanounas",
+"site_publisher": "",
+"source": "",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "ru",
+"xpath": [
+""
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "http://",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+""
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "ru",
+"xpath": [
+""
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sdelanounas",
+"site_publisher": "",
+"source": "",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "ru",
+"xpath": [
+""
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "http://",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+""
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "ru",
+"xpath": [
+""
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sdelanounas",
+"site_publisher": "",
+"source": "",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
+
+
+
+{
+"article_body": {
+"function": "process_article_text",
+"lang": "ru",
+"xpath": [
+""
+    ]
+  },
+"authors": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"categories": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"datestring": "%B %d, %Y",
+"external_links": {
+"function": "process_external_links",
+"xpath": [
+""
+    ]
+  },
+"index": "sti_md_trade_journal",
+"link": "http://",
+"pubdate": {
+"function": "process_date_item",
+"xpath": [
+""
+    ]
+  },
+"tags": {
+"function": "process_array_item",
+"xpath": [
+""
+    ]
+  },
+"title": {
+"function": "process_singular_item",
+"lang": "ru",
+"xpath": [
+""
+    ]
+  },
+"parser_author": "fedorovnu0406@gmail.com",
+"parser_name": "sdelanounas",
+"site_publisher": "",
+"source": "",
+"topic_en": "",
+"org_type": "media"
+}
+
+=============================================================================================
